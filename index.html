@@ -18,14 +18,17 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#work">Work</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#work">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>        
     </header>
 
     <div class="home" id="home">
+        <video autoplay muted loop id="bgVideo">
+            <source src="./assets/images/main-page-background.mp4" type="video/mp4">
+        </video>
         <div class="main-content">    
             <h2>Hello There,<br/> I'm Damini <span>Kesharkar</span></h2>
             <p>I am into <span class="variabletext"></span></p>
@@ -42,14 +45,14 @@
             </div>
         </div>
 
-        <div class="myphoto">
+        <!-- <div class="myphoto">
             <img draggable="false" class="image" src="./assets/images/avatar.png" alt="">
-        </div>
+        </div> -->
     </div>
 
     <div class="about" id="about">
         <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2> 
-        
+
         <div class="row">
             <div class="content">
                 <h3>I'm Damini Kesharkar</h3>
@@ -121,8 +124,32 @@
         </div>
     </div>
 
-    <footer>
-        <h1 class="footer-text">Designed by Damini Kesharkar with <i class="fa fa-heart pulse"></i></h1>
+    <footer>        
+        <div class="footer-container">
+            <div class="container c1">
+                <p class="detail">Designed and coded my portfolio with HTML, CSS, and JavaScript. 
+                    Utilized Next.js and Tailwind CSS for a modern look and responsiveness. 
+                    Deployed seamlessly with Vercel, showcasing my work using the sleek Inter typeface                      
+                </p> 
+                <p class="top-link">
+                     <a href="#home">Go on top <i class="fa-solid fa-circle-up"></i></a>
+                </p>     
+            </div>
+            
+            <div class="container c2">
+                <p> <i class="fas fa-envelope"></i>daminisk272@gmail.com</p>
+                <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>                
+                <p> <i class="fas fa-map-marked-alt"></i>Pune, India-411015</p>
+
+                <div class="share">      
+                    <a href="" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                    <a href="" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                    <a href="" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                    <a href="" class="fa-solid fa-code" aria-label="Leetcode" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <h1 class="footer-text">Designed and Developed by <span>Damini</span><i class="fa fa-heart pulse"></i></h1>
     </footer>    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>

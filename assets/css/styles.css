@@ -22,10 +22,16 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 5rem;
-    background-color: hsl(0, 0%, 100%);
+    /* background-color: hsl(0, 0%, 100%); */
     box-shadow: 0 1px 4px rgba(192, 202, 212, 0.3);
     padding: 1.7rem 10%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    transition: background-color 0.3s ease;
 }
+header.transparent {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 header .logo-name {
     text-decoration: none;
     font-size: 2rem;
@@ -57,9 +63,18 @@ header .nav-menu ul li a:hover {
 }
 
 /* Home Section */
+#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
 .home {
-    margin-left: 20%;
-    margin-right: 10%;
+    /* margin-left: 20%;
+    margin-right: 10%; */
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +85,7 @@ header .nav-menu ul li a:hover {
     flex-shrink: 1;
     flex-grow: 1;
     flex-basis: 40rem;
+    margin-left: 10%;
 }
 .home .myphoto {
     flex-shrink: 1;
@@ -80,7 +96,7 @@ header .nav-menu ul li a:hover {
     width: 70%;
     margin-left: 1rem;
     margin-right: 4rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); */
     cursor: pointer;
 }
 .home .myphoto img:hover {
@@ -235,6 +251,9 @@ header .nav-menu ul li a:hover {
     min-height: 80vh;
     padding-top: 3rem;
     padding-bottom: 5rem;
+    background-image: url(../images/education-background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .education .heading {
     color: rgb(27, 27, 27);
@@ -263,7 +282,8 @@ header .nav-menu ul li a:hover {
     box-shadow: 0.2rem 0.5rem 1rem rgba(24, 20, 20, 0.2);
     text-align: center;
     margin-top: 2rem;
-    background: rgb(252, 252, 252);
+    /* background: rgb(252, 252, 252); */
+    background: rgba(252, 252, 252, 0.8);
 }
 .education-container .container .image {
     flex: 1 1 20rem;
@@ -302,4 +322,77 @@ header .nav-menu ul li a:hover {
     text-align: left;
     margin: 1rem;
     font-weight: 600;
+}
+
+/* Footer Section */
+footer {
+    min-height: auto;
+    padding-top: 0;
+    background: rgb(0, 1, 43);
+    color: white;
+}
+footer .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .footer-container .container {
+    flex: 1 1 25rem;
+    margin: 2rem;    
+}
+footer .footer-container .container p {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    text-transform: none;
+    color: #9089cf;
+}
+footer .footer-container .container .detail {
+    font-size: 1.2rem;
+    color: #9089cf;
+    padding-left: 2rem ;
+}
+footer .footer-container .container .top-link a {
+    font-size: 1.2rem;
+    color: #f2f1fa;
+    padding-left: 2rem ;
+}
+
+footer .footer-container .c1 {
+    padding-left: 3rem; 
+}
+footer .footer-container .c2 {
+    padding-left: 6rem;  
+}
+
+footer .footer-container .container p i {
+    padding-right: 1rem;
+    color: #eab115;
+}
+footer .footer-container .container a {
+    font-size: 2rem;
+    color: rgb(238, 238, 238);
+    padding: 0.3rem 0;
+    padding-top: 2rem;
+    padding-right: 1rem;  
+}
+footer .footer-container .container a:hover {
+    color: #ffae00;
+}
+footer .footer-text {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    border-top: 0.1rem solid rgba(154, 144, 144, 0.2);
+}  
+footer .footer-text span {
+    color: #ffae00;
+}
+footer .fa {
+    color: #e90606;
+    margin: 0 0.3rem;
+    font-size: 1rem;
 }
