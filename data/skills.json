@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Javascript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript.png"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/javascript.png"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+    },
+    {
+        "name": "Mysql",
+        "icon": "https://img.icons8.com/color/48/000000/mysql.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/fluency/48/000000/docker.png"
+    }
+]

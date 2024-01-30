@@ -324,6 +324,161 @@ header .nav-menu ul li a:hover {
     font-weight: 600;
 }
 
+/* Skills Section */
+.skills {
+    height: 90vh;
+}
+.skills .heading {
+    color: #000000;
+    font-size: 2.5rem;
+    margin-left: 40%;
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+}
+.skills .heading i{
+    color: #000000;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.skills .skills-container {
+    color: #fff;
+    padding: 0rem 12rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.skills .skills-container .row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+  .skills .skills-container .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 22, 0.9);
+    transition: 0.2s;
+  }
+  .skills .skills-container .bar:hover {
+    box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
+  }
+  .skills .skills-container .bar .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    padding-left: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin-top: 1rem;
+  }
+  .skills .skills-container .bar .info i {
+    font-size: 1rem;
+  }
+  .skills .container .bar .info span {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin-left: 0.5rem;
+  }
+
+/* Projects Section */
+.projects {
+    background-image: url(../images/projects-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.projects .heading {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-left: 40%;
+    margin-bottom: 5rem;
+    padding-top: 3rem;
+}
+.projects .heading i{
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.projects .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-bottom: 2rem;
+}
+.projects .projects-container .container {
+    /* flex: 1 1 22rem; */
+    flex: 0 1 calc(33.33% - 2rem);
+    position: relative;
+    overflow: hidden;
+    height: 20rem;    
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); 
+    background: rgba(252, 252, 252, 0.8);
+}
+.projects .projects-container .container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.projects .projects-container .container .content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+.projects .projects-container .container .content .tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+    width: 100%;
+    padding-left: 1rem;
+    background: #ffd900;
+}
+.projects .projects-container .container:hover .content {
+    top: 15%;
+}
+.projects .desc {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projects .desc p {
+    font-size: 1.2rem;
+}
+.projects .desc .btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+}
+.projects .desc .btns .btn {
+    line-height: 0;
+    display: inline;
+    padding: 1.2rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: rgb(12, 12, 12);
+    margin-right: 2rem;
+}
+.projects .desc .btns .btn:hover {
+    background: #310ae0f5;
+}
+
 /* Footer Section */
 footer {
     min-height: auto;

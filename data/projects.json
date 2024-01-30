@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Expense Manager App",
+      "desc": "Fully fledged expense manager application. Built using Node, Express, Mysql, Javascript, html, css",
+      "image": "expense-tracker",
+      "category": "MERN",
+      "links": {
+        "view": "",
+        "code": ""
+      }
+    },
+    {
+      "name": "Expense Manager App",
+      "desc": "Fully fledged expense manager application. Built using Node, Express, Mysql, Javascript, html, css",
+      "image": "expense-tracker",
+      "category": "MERN",
+      "links": {
+        "view": "",
+        "code": ""
+      }
+    },
+    {
+      "name": "Expense Manager App",
+      "desc": "Fully fledged expense manager application. Built using Node, Express, Mysql, Javascript, html, css",
+      "image": "expense-tracker",
+      "category": "MERN",
+      "links": {
+        "view": "",
+        "code": ""
+      }
+    },
+    {
+      "name": "Expense Manager App",
+      "desc": "Fully fledged expense manager application. Built using Node, Express, Mysql, Javascript, html, css",
+      "image": "expense-tracker",
+      "category": "MERN",
+      "links": {
+        "view": "",
+        "code": ""
+      }
+    }
+]
