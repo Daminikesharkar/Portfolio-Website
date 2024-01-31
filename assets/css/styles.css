@@ -329,7 +329,8 @@ header .nav-menu ul li a:hover {
 
 /* Skills Section */
 .skills {
-    height: 90vh;
+    /* height: 90vh; */
+    height: auto;
 }
 .skills .heading {
     color: #000000;
@@ -337,6 +338,8 @@ header .nav-menu ul li a:hover {
     margin-left: 40%;
     margin-bottom: 4rem;
     padding-top: 3rem;
+    text-align: center; 
+    margin-bottom: 2rem; 
 }
 .skills .heading i{
     color: #000000;
@@ -353,7 +356,8 @@ header .nav-menu ul li a:hover {
 }
 .skills .skills-container .row {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     flex-wrap: wrap;
     gap: 1.8rem;
 }
@@ -387,6 +391,58 @@ header .nav-menu ul li a:hover {
     font-family: "Poppins";
     margin-left: 0.5rem;
   }
+  @media (max-width: 1400px) {
+    .projects .heading{
+        font-size: 1.3rem;
+        margin-left: 2px;
+    } 
+  }
+  @media (max-width: 1200px) {
+    .projects .heading{
+        font-size: 1.3rem;
+        margin-left: 0px;
+    }     
+  }
+
+  @media (max-width: 768px) {
+    .skills .skills-container {
+        padding: 0rem 1rem; 
+    }
+    .skills .skills-container .bar {
+        padding: 0.3rem;
+        margin: 0rem;
+    }
+    .skills .skills-container .row {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+    }
+
+    .skills .skills-container .bar .info i {
+        font-size: 0.5rem; 
+    }
+    .skills .skills-container .bar .info span {
+        font-size: 0.6rem; 
+    }
+    .skills .heading{
+        font-size: 1.3rem;
+        margin-left: 0px;
+    } 
+}
+@media (max-width: 450px) {
+    .skills .skills-container .row .info{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .skills .skills-container .bar .info span{
+        font-size: 0.7rem;
+        margin: 0px;
+    }
+    .skills .skills-container .bar .info i{
+        font-size: 0.7rem;
+    }
+    .skills .heading {
+        margin-left: 0;
+    }
+}
 
 /* Projects Section */
 .projects {
@@ -401,7 +457,7 @@ header .nav-menu ul li a:hover {
     margin-left: 40%;
     margin-bottom: 5rem;
     padding-top: 3rem;
-    text-align: center; /* Center the heading for small screens */
+    text-align: center; 
     margin-bottom: 2rem; 
 }
 .projects .heading i{
@@ -570,8 +626,8 @@ header .nav-menu ul li a:hover {
     }
 
     .projects .projects-container {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 1rem;
+        margin-right: 0rem;
     }
 
     .projects .projects-container .container {
@@ -594,6 +650,8 @@ header .nav-menu ul li a:hover {
     margin-left: 40%;
     padding-top: 0.5rem;
     margin-bottom: 10px;
+    text-align: center; 
+    margin-bottom: 2rem; 
 }
 .experience .experience-container {
     display: flex;
@@ -618,7 +676,34 @@ header .nav-menu ul li a:hover {
 .experience .experience-container .container h3 {
     border-bottom: 0.1rem solid rgba(214, 203, 203, 0.2);
 }
+@media (max-width: 768px) {
+    .experience .heading {
+        
+        font-size: 1.3rem;
+        margin-left: 0px;
+         
+    }
 
+    .experience .experience-container {
+        width: 90%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .experience .experience-container .container {
+        padding: 2rem; 
+    }
+
+    .experience .experience-container .container h2 {
+        font-size: 1rem; 
+    }
+    .experience .experience-container .container h3{
+        font-size: 0.9rem;
+    }
+    .experience .experience-container .container p{
+        font-size: 0.8rem;
+    }
+}
 /* contact Section */
 .contact {
     position: relative;
