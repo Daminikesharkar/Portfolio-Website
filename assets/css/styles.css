@@ -251,7 +251,8 @@ header .nav-menu ul li a:hover {
 /* Education Section */
 .education {
     background: #e5ecfb;
-    min-height: 80vh;
+    /* min-height: 80vh; */
+    min-height: auto;
     padding-top: 3rem;
     padding-bottom: 5rem;
     background-image: url(../images/education-background.jpg);
@@ -264,6 +265,7 @@ header .nav-menu ul li a:hover {
     margin-left: 40%;
     padding-top: 2rem;
     margin-bottom: 2rem;
+    text-align: center; 
 }
 .education .heading i{
     color: #2506ad;
@@ -326,6 +328,48 @@ header .nav-menu ul li a:hover {
     margin: 1rem;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .education {
+        padding-top: 0px;
+    }
+    .education-container .container {
+        width: 90%; 
+    }
+    .education .heading{
+        font-size: 1.3rem;
+        margin-left: 0px;
+    } 
+
+    .education-container .container .content h3,
+    .education-container .container .content p,
+    .education-container .container h4 {
+        font-size: 0.9rem;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+@media (max-width: 450px) {
+    .education-container .container {
+        width: 98%; 
+        border-radius: 0px;
+        margin: 4px;
+    }
+    .education .heading{
+        font-size: 1.3rem;
+        margin-left: 0px;
+    } 
+
+    .education-container .container .content h3,
+    .education-container .container .content p,
+    .education-container .container h4 {
+        font-size: 0.7rem;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
 
 /* Skills Section */
 .skills {
