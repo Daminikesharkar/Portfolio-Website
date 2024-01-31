@@ -265,14 +265,13 @@ header .menu-toggle {
     font-size: 2.5rem;
 }
 .about .heading {
-    color: rgb(27, 27, 27);
-    font-size: 2.5rem;
-    margin-left: 40%;
+    color: #5d5c5c;
+    font-size: 2rem;
     padding-top: 2rem;
     text-align: center; 
 }
 .about .heading i{
-    color: #2506ad;
+    color: #5d5c5c;
     cursor: pointer;
     margin-right: 1rem;
 }
@@ -392,27 +391,27 @@ header .menu-toggle {
         margin-bottom: 10px;
     }
 }
+
 /* Education Section */
 .education {
     background: #e5ecfb;
     /* min-height: 80vh; */
     min-height: auto;
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-bottom: 5rem;
     background-image: url(../images/education-background.jpg);
     background-size: cover;
     background-position: center;
 }
 .education .heading {
-    color: rgb(27, 27, 27);
-    font-size: 2.5rem;
-    margin-left: 40%;
+    color: #5d5c5c;
+    font-size: 2rem;
     padding-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center; 
 }
 .education .heading i{
-    color: #2506ad;
+    color: #5d5c5c;
     cursor: pointer;
     margin-right: 1rem;
 }
@@ -472,7 +471,6 @@ header .menu-toggle {
     margin: 1rem;
     font-weight: 600;
 }
-
 @media (max-width: 768px) {
     .education {
         padding-top: 0px;
@@ -484,7 +482,6 @@ header .menu-toggle {
         font-size: 1.3rem;
         margin-left: 0px;
     } 
-
     .education-container .container .content h3,
     .education-container .container .content p,
     .education-container .container h4 {
@@ -503,7 +500,6 @@ header .menu-toggle {
         font-size: 1.3rem;
         margin-left: 0px;
     } 
-
     .education-container .container .content h3,
     .education-container .container .content p,
     .education-container .container h4 {
@@ -513,28 +509,24 @@ header .menu-toggle {
     }
 }
 
-
-
 /* Skills Section */
 .skills {
     /* height: 90vh; */
     height: auto;
 }
 .skills .heading {
-    color: #000000;
-    font-size: 2.5rem;
-    margin-left: 40%;
+    color: #5d5c5c;
+    font-size: 2rem;
     margin-bottom: 4rem;
     padding-top: 3rem;
     text-align: center; 
-    margin-bottom: 2rem; 
+    margin-bottom: 3rem; 
 }
 .skills .heading i{
-    color: #000000;
+    color: #5d5c5c;
     cursor: pointer;
     margin-right: 1rem;
 }
-
 .skills .skills-container {
     color: #fff;
     padding: 0rem 12rem;
@@ -549,19 +541,19 @@ header .menu-toggle {
     flex-wrap: wrap;
     gap: 1.8rem;
 }
-  .skills .skills-container .bar {
+.skills .skills-container .bar {
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     background: rgba(0, 0, 22, 0.9);
     transition: 0.2s;
-  }
-  .skills .skills-container .bar:hover {
+}
+.skills .skills-container .bar:hover {
     box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
     background-color: rgba(0, 0, 0, 0.9) !important;
-  }
-  .skills .skills-container .bar .info {
+}
+.skills .skills-container .bar .info {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -569,30 +561,29 @@ header .menu-toggle {
     padding-left: 0.7rem;
     padding-bottom: 0.7rem;
     margin-top: 1rem;
-  }
-  .skills .skills-container .bar .info i {
+}
+.skills .skills-container .bar .info i {
     font-size: 1rem;
-  }
-  .skills .container .bar .info span {
+}
+.skills .container .bar .info span {
     font-size: 2rem;
     font-weight: 500;
     font-family: "Poppins";
     margin-left: 0.5rem;
-  }
-  @media (max-width: 1400px) {
+}
+@media (max-width: 1400px) {
     .projects .heading{
         font-size: 1.3rem;
         margin-left: 2px;
     } 
-  }
-  @media (max-width: 1200px) {
+}
+@media (max-width: 1200px) {
     .projects .heading{
         font-size: 1.3rem;
         margin-left: 0px;
     }     
-  }
-
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
     .skills .skills-container {
         padding: 0rem 1rem; 
     }
@@ -634,22 +625,19 @@ header .menu-toggle {
 
 /* Projects Section */
 .projects {
-    background: #000000;
-    /* background-image: url(../images/projects-background.jpg);
-    background-size: cover;
-    background-position: center; */
+    background: #f7f7f7;
 }
 .projects .heading {
-    color: #ffffff;
-    font-size: 2.5rem;
-    margin-left: 40%;
+    color: #5d5c5c;
     margin-bottom: 5rem;
     padding-top: 3rem;
     text-align: center; 
-    margin-bottom: 2rem; 
+    margin-bottom: 3rem; 
+    font-size: 2rem;
+    text-align: center; 
 }
 .projects .heading i{
-    color: #ffffff;
+    color: #5d5c5c;
     cursor: pointer;
     margin-right: 1rem;
 }
@@ -663,13 +651,13 @@ header .menu-toggle {
     padding-bottom: 2rem;
 }
 .projects .projects-container .container {
-    /* flex: 1 1 22rem; */
     flex: 0 1 calc(33.33% - 2rem);
     position: relative;
     overflow: hidden;
     height: 20rem;    
-    border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); 
+    border-radius: 0.3rem;
+    box-shadow: 0 0.5rem 1rem rgba(3, 2, 2, 0.1); 
+    border: 0.1rem solid #a3a3a5;
     background: rgba(252, 252, 252, 0.8);
 }
 .projects .projects-container .container img{
@@ -746,7 +734,6 @@ header .menu-toggle {
         margin-left: 0px;
     } 
 }
-
 @media (max-width: 1200px) {
     .projects .projects-container .container {
         flex: 0 1 calc(50% - 1rem);
@@ -765,7 +752,6 @@ header .menu-toggle {
         margin-left: 0px;
     } 
 }
-
 @media (max-width: 820px) {
     .projects .projects-container .container {
         flex: 0 1 calc(50% - 1rem);
@@ -789,11 +775,9 @@ header .menu-toggle {
         margin-left: 1rem;
         margin-right: 0rem;
     }
-
     .projects .projects-container .container {
         flex: 0 1 calc(100% - 1rem);
     }
-
     .projects .desc .btns .btn {
         margin-right: 0;
         margin-bottom: 1rem;
@@ -812,17 +796,14 @@ header .menu-toggle {
     .projects .heading {
         margin-left: 0;
     }
-
     .projects .projects-container {
         margin-left: 1rem;
         margin-right: 0rem;
     }
-
     .projects .projects-container .container {
         flex: 0 1 calc(100% - 1rem);
     }
 }
-
 
 /* experience Section */
 .experience {
@@ -835,7 +816,6 @@ header .menu-toggle {
 .experience .heading {
     color: #ffffff;
     font-size: 2rem;
-    margin-left: 40%;
     padding-top: 0.5rem;
     margin-bottom: 10px;
     text-align: center; 
@@ -871,17 +851,14 @@ header .menu-toggle {
         margin-left: 0px;
          
     }
-
     .experience .experience-container {
         width: 90%; 
         margin-left: auto;
         margin-right: auto;
     }
-
     .experience .experience-container .container {
         padding: 2rem; 
     }
-
     .experience .experience-container .container h2 {
         font-size: 1rem; 
     }
@@ -892,6 +869,7 @@ header .menu-toggle {
         font-size: 0.8rem;
     }
 }
+
 /* contact Section */
 .contact {
     position: relative;
@@ -950,9 +928,7 @@ textarea::placeholder {
 .contact .contact-container .form-container form button:hover {
     background-color: #305375;
 }
-
 @media (max-width: 768px) {
-
     .contact .contact-container .form-container form {
         padding: 10px;
     }
@@ -963,12 +939,10 @@ textarea::placeholder {
         padding-top: 5px;
         margin-bottom: 8px;
     }
-
     input::placeholder,
     textarea::placeholder {
         font-size: 1rem;
     }
-
     .contact .contact-container .form-container form button {
         font-size: 0.9rem;
         padding: 10px 20px;
@@ -987,7 +961,6 @@ footer .footer-container{
     flex-wrap: wrap;
     justify-content: center;
 }
-
 footer .footer-container .container {
     flex: 1 1 25rem;
     margin: 2rem;    
@@ -1008,14 +981,12 @@ footer .footer-container .container .top-link a {
     color: #f2f1fa;
     padding-left: 2rem ;
 }
-
 footer .footer-container .c1 {
     padding-left: 3rem; 
 }
 footer .footer-container .c2 {
     padding-left: 6rem;  
 }
-
 footer .footer-container .container p i {
     padding-right: 1rem;
     color: #eab115;
@@ -1047,12 +1018,10 @@ footer .fa {
     margin: 0 0.3rem;
     font-size: 1rem;
 }
-
 @media (max-width: 768px) {
     footer .footer-container .container {
         flex: 1 1 100%;
     }
-
     footer .footer-container .container  {
         padding-left: 1rem;
         margin: 1rem;
@@ -1063,16 +1032,13 @@ footer .fa {
     footer .footer-container .c2 {
         padding-left: 1rem;
     } 
-
     footer .footer-container .container .detail,
     footer .footer-container .container .top-link a {
         padding-left: 1rem;
     }
-
     footer .footer-container .container p {
         font-size: 0.7rem;
     }
-
     footer .footer-container .container a {
         font-size: 1rem;
         padding-top: 1rem;
@@ -1081,13 +1047,11 @@ footer .fa {
         font-size: 0.8rem;
     }
 }
-
 @media (max-width: 450px) {
     footer .footer-container .container ,
     footer .footer-container .container  {
         padding-left: 0;
     }
-
     footer .footer-container .container .detail,
     footer .footer-container .container .top-link a {
         padding-left: 0;
