@@ -61,6 +61,41 @@ header .nav-menu ul li a:hover {
     border-bottom: 0.3rem solid #797b84;
     padding: 0.5rem 0;
 }
+header .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    header .logo-name{
+        font-size: 1.5rem;
+    }
+    header .nav-menu ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 1px 4px rgba(192, 202, 212, 0.3);
+    }
+    header .nav-menu ul.show {
+        display: flex;
+    }
+    header .nav-menu ul li {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    header .menu-toggle {
+        display: flex;
+    }
+    header .nav-menu ul li a:hover {
+        color: #797b84;
+        border-bottom: 0.1rem solid #797b84;
+    }
+}
 
 /* Home Section */
 #bgVideo {
@@ -170,6 +205,39 @@ header .nav-menu ul li a:hover {
     color: #fff;
     background-color: #4288b7;
 }
+@media (max-width: 450px) {
+    .home .myphoto img {
+        width: 100%; 
+    }
+    .home .about-btn{
+        padding: 20px;
+    }
+    .home .about-btn span{
+        font-size: 1rem;    
+    }
+    .my-socials a {
+        font-size: 1.2rem;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
+    .home .main-content h2,
+    .home .main-content p,
+    .home .main-content h2 span {
+        font-size: 1.7rem; 
+    }
+    .home .main-content p span {
+        font-size: 1.3rem; 
+    }
+}
+@media (max-width: 768px) {
+    .home .main-content {
+        padding: 1rem; 
+    }
+    .home .myphoto {
+        margin-top: 1rem; 
+    }
+}
 
 /* About Section */
 .about {
@@ -201,6 +269,7 @@ header .nav-menu ul li a:hover {
     font-size: 2.5rem;
     margin-left: 40%;
     padding-top: 2rem;
+    text-align: center; 
 }
 .about .heading i{
     color: #2506ad;
@@ -247,7 +316,82 @@ header .nav-menu ul li a:hover {
 .resumebtn .btn:hover {
     background: #1a047e;
 }
-
+@media (max-width: 450px) {
+    .about {
+        padding: 0rem; 
+        margin: 0rem;
+    }
+    .about .row {
+        padding: 0.4rem;
+    }
+    .about .row .content h3 {
+        font-size: 1.3rem;
+    }
+    .about .row .content .tag{
+        font-size: 1rem;
+    }
+    .about .row .content p{
+        font-size: 0.9rem;
+    }
+    .about .row .content .box-container .box p {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    .about .row .content .box-container .box {
+        margin-bottom: 10px;
+    }
+    .resumebtn .btn {
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+    .resumebtn .btn span {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 1400px) {
+    .about {
+        padding: 1rem; 
+    }
+    .about .row {
+        padding: 0.4rem;
+    }
+    .about .heading{
+        font-size: 1.3rem;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        padding-top: 10px;
+    } 
+    .about .row {
+        flex-direction: column;
+    }
+    .about .row .content {
+        flex: 1 1 100%;
+        order: 1;
+        padding: 1rem; 
+    }
+    .about .row .image img {
+        width: 100%;
+        max-width: 200px;
+        height: auto; 
+        max-height: 200px;
+        margin: 0px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .resumebtn {
+        margin-top: 1rem; 
+    }    
+    .about .heading {
+        margin-left: 0; 
+    }
+    .about .row .content .box-container .box p {
+        margin-top: 10px;
+    }
+    .about .row .content .box-container .box {
+        margin-bottom: 10px;
+    }
+}
 /* Education Section */
 .education {
     background: #e5ecfb;

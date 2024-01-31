@@ -79,3 +79,13 @@ fetchSkills()
     .catch((error)=>{
         console.log(error);
     })
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('mobile-menu');
+    const navMenu = document.querySelector('.nav-menu ul');
+    
+    menuToggle.addEventListener('click', function () {
+        navMenu.classList.toggle('show');
+    });
+});
