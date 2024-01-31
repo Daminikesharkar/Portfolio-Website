@@ -15,7 +15,6 @@ async function fetchprojects(){
 
 function displayProject(projects){
     let projectContainer = document.getElementById('projects-container');
-    // let projectContainer = document.querySelector("#projects .projects-container")
     let projectHTML = "";
     projects.forEach(project => {
         projectHTML += `
