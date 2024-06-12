@@ -1,12 +1,32 @@
 [
     {
-        "name": "Javascript",
+        "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript.png"
     },
     {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/javascript.png"
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/?size=50&id=CE8TNP2dKzzV&format=png&color=000000"
     },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/?size=50&id=lTKW3iI3wIT0&format=png&color=000000"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/?size=50&id=13441&format=png&color=000000"
+    },
+    {
+        "name": "Html",
+        "icon": "https://img.icons8.com/?size=50&id=59916&format=png&color=000000"
+    },
+    {
+        "name": "CSS",
+        "icon": "https://img.icons8.com/?size=50&id=11935&format=png&color=000000"
+    },
+    {
+        "name": "BootStrap",
+        "icon": "https://img.icons8.com/?size=50&id=84710&format=png&color=000000"
+    },   
     {
         "name": "NodeJS",
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
@@ -22,6 +42,18 @@
     {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/?size=50&id=wU62u24brJ44&format=png&color=000000"
+    },
+    {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/?size=50&id=17842&format=png&color=000000"
+    },
+    {
+        "name": "Git",
+        "icon": "https://img.icons8.com/?size=50&id=20906&format=png&color=000000"
     },
     {
         "name": "Docker",

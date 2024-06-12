@@ -3,40 +3,36 @@
       "name": "Expense Manager App",
       "desc": "Fully fledged expense manager application. Built using Node, Express, Mysql, Javascript, html, css",
       "image": "expense-tracker",
-      "category": "MERN",
       "links": {
-        "view": "",
-        "code": ""
+        "view": "https://github.com/Daminikesharkar/Expense-manager",
+        "code": "https://github.com/Daminikesharkar/Expense-manager"
       }
     },
     {
-      "name": "Expense Manager App",
-      "desc": "Fully fledged expense manager application. Built using Node, Express, Mysql, Javascript, html, css",
-      "image": "expense-tracker",
-      "category": "MERN",
+      "name": "Circle Chat-application",
+      "desc": "Circle Chat application. Built using SocketIO, Node, Express, Mysql, Javascript, html, css",
+      "image": "circlechat",
       "links": {
-        "view": "",
-        "code": ""
+        "view": "https://github.com/Daminikesharkar/circle-chat-app",
+        "code": "https://github.com/Daminikesharkar/circle-chat-app"
       }
     },
     {
-      "name": "Expense Manager App",
-      "desc": "Fully fledged expense manager application. Built using Node, Express, Mysql, Javascript, html, css",
-      "image": "expense-tracker",
-      "category": "MERN",
+      "name": "Gesture Based Operating System",
+      "desc": "Real-time gesture recognition system for intuitive user-computer interaction through hand gestures.",
+      "image": "gesture-based",
       "links": {
-        "view": "",
-        "code": ""
+        "view": "https://drive.google.com/file/d/1RQhV7LUTKj7XIjglsUWiL80loheUZH78/view?usp=drive_link",
+        "code": "https://drive.google.com/file/d/1RQhV7LUTKj7XIjglsUWiL80loheUZH78/view?usp=drive_link"
       }
     },
     {
-      "name": "Expense Manager App",
-      "desc": "Fully fledged expense manager application. Built using Node, Express, Mysql, Javascript, html, css",
-      "image": "expense-tracker",
-      "category": "MERN",
+      "name": "Portfolio website",
+      "desc": "Designed and coded my portfolio with HTML, CSS, and JavaScript. Deployed seamlessly with Vercel",
+      "image": "portfolio",
       "links": {
-        "view": "",
-        "code": ""
+        "view": "https://portfolio-website-sigma-blue.vercel.app/",
+        "code": "https://github.com/Daminikesharkar/Portfolio-Website"
       }
     }
 ]
