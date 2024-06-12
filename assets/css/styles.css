@@ -625,10 +625,10 @@ header .menu-toggle {
 
 /* Projects Section */
 .projects {
-    background: #f7f7f7;
+    background: rgb(0, 1, 43);
 }
 .projects .heading {
-    color: #5d5c5c;
+    color: #a5a0a0;
     margin-bottom: 5rem;
     padding-top: 3rem;
     text-align: center; 
@@ -637,7 +637,7 @@ header .menu-toggle {
     text-align: center; 
 }
 .projects .heading i{
-    color: #5d5c5c;
+    color: #a5a0a0;
     cursor: pointer;
     margin-right: 1rem;
 }
